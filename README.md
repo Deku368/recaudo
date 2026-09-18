@@ -256,13 +256,22 @@ Lo mismo aplica a **opiniones** y **registros de membresía** (`src/lib/registro
 El sitio es **estático** (sin backend). El ruteo usa hash (`/#/…`) y las rutas de assets son
 relativas (`base: "./"`), así que funciona en cualquier hosting y bajo cualquier subcarpeta.
 
-### GitHub Pages (incluido, automático)
+### GitHub Pages (así está publicado)
 
-Ya viene un flujo de trabajo en `.github/workflows/deploy.yml`. Solo:
+El sitio ya está en vivo en **https://deku368.github.io/recaudo/** (repo: `Deku368/recaudo`).
+Se publica compilando y subiendo la versión lista a la rama `gh-pages`. Para actualizarlo
+después de cualquier cambio, corre:
 
-1. Sube el proyecto a un repositorio de GitHub.
-2. En el repo: **Settings → Pages → Source: "GitHub Actions"**.
-3. Cada `git push` a la rama `main` compila y publica el sitio.
+```bash
+./deploy.sh
+```
+
+Eso compila el sitio y lo sube. En 1–2 minutos el cambio aparece en la URL de arriba.
+El código fuente vive en la rama `main`; para guardar tus cambios de código también ahí:
+
+```bash
+git add -A && git commit -m "describe tu cambio" && git push
+```
 
 ### Vercel o Netlify
 
