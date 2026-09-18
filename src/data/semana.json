@@ -1,0 +1,58 @@
+{
+  "etiqueta": "Semana del 13 al 19 de septiembre",
+  "estacion": "Final del verano",
+  "ciclo": {
+    "anuncio": "2026-09-13",
+    "cierre": "2026-09-16",
+    "entregaTienda": "2026-09-17",
+    "entregaDomicilio": "2026-09-18"
+  },
+  "disponibilidad": [
+    { "productoId": "acelga", "precio": 25, "estado": "disponible" },
+    { "productoId": "lechuga", "precio": 20, "estado": "disponible" },
+    { "productoId": "jitomate", "precio": 32, "estado": "disponible" },
+    { "productoId": "chile-poblano", "precio": 45, "estado": "pocas" },
+    { "productoId": "maiz", "precio": 12, "estado": "disponible" },
+    { "productoId": "calabaza", "precio": 38, "estado": "disponible" },
+    { "productoId": "rabano", "precio": 18, "estado": "disponible" },
+    { "productoId": "cilantro", "precio": 12, "estado": "disponible" },
+    { "productoId": "epazote", "precio": 12, "estado": "pocas" },
+    { "productoId": "manzana", "precio": 42, "estado": "disponible" },
+    { "productoId": "espinaca", "precio": null, "estado": "agotado" }
+  ],
+  "canastas": [
+    {
+      "id": "canasta-basica",
+      "nombre": "Canasta básica",
+      "kg": null,
+      "precioMin": null,
+      "precioMax": null,
+      "descripcion": "Lo esencial de la semana para una o dos personas. Precio por confirmar con Recaudo.",
+      "contiene": ["acelga", "lechuga", "jitomate", "cilantro"],
+      "esEjemplo": true
+    },
+    {
+      "id": "canasta-3kg",
+      "nombre": "Canasta 3 kg",
+      "kg": 3,
+      "precioMin": 180,
+      "precioMax": 230,
+      "descripcion": "Buena para dos o tres personas por semana. Verdura variada de temporada.",
+      "contiene": ["acelga", "lechuga", "jitomate", "rabano", "maiz", "cilantro"],
+      "esEjemplo": true
+    },
+    {
+      "id": "canasta-5kg",
+      "nombre": "Canasta 5 kg",
+      "kg": 5,
+      "precioMin": 230,
+      "precioMax": 280,
+      "descripcion": "Para familias o para quien cocina mucho en casa. La más completa de la semana.",
+      "contiene": ["acelga", "lechuga", "jitomate", "rabano", "maiz", "cilantro", "calabaza", "chile-poblano", "manzana"],
+      "esEjemplo": true
+    }
+  ],
+  "sustituciones": [
+    { "sale": "espinaca", "entra": "acelga", "motivo": "La lluvia atrasó el corte de espinaca esta semana" }
+  ]
+}

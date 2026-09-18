@@ -1,0 +1,86 @@
+[
+  {
+    "id": "quinoa-tepeyahualco",
+    "slug": "quinoa-tepeyahualco",
+    "nombre": "Familia quinoera de Tepeyahualco",
+    "municipio": "Tepeyahualco",
+    "produce": ["Quinoa"],
+    "historia": "Productor familiar de quinoa en Tepeyahualco, al oriente de Puebla. Es el único productor confirmado de esta propuesta. Su nombre, su historia y sus fotos se completarán con la información que Recaudo nos comparta.",
+    "temporada": "Cosecha de octubre a diciembre",
+    "mapa": { "x": 73, "y": 42 },
+    "foto": null,
+    "esEjemplo": false
+  },
+  {
+    "id": "hortaliza-calpan",
+    "slug": "hortaliza-calpan",
+    "nombre": "Huerta de la falda del volcán (ejemplo)",
+    "municipio": "Calpan",
+    "produce": ["Acelga", "Espinaca", "Lechuga"],
+    "historia": "DATO DE EJEMPLO. Familia que cultiva hoja verde en las faldas del Iztaccíhuatl, donde el clima fresco da acelgas y espinacas de hoja gruesa. Sustituir por un productor real de Recaudo.",
+    "temporada": "Casi todo el año, mejor en meses frescos",
+    "mapa": { "x": 34, "y": 44 },
+    "foto": null,
+    "esEjemplo": true
+  },
+  {
+    "id": "jitomate-atlixco",
+    "slug": "jitomate-atlixco",
+    "nombre": "Invernadero de Atlixco (ejemplo)",
+    "municipio": "Atlixco",
+    "produce": ["Jitomate", "Chile", "Cebolla"],
+    "historia": "DATO DE EJEMPLO. En el valle templado de Atlixco maduran jitomates y chiles al sol buena parte del año. Sustituir por un productor real de Recaudo.",
+    "temporada": "De junio a octubre",
+    "mapa": { "x": 31, "y": 67 },
+    "foto": null,
+    "esEjemplo": true
+  },
+  {
+    "id": "raices-texmelucan",
+    "slug": "raices-texmelucan",
+    "nombre": "Parcela de raíces de Texmelucan (ejemplo)",
+    "municipio": "San Martín Texmelucan",
+    "produce": ["Zanahoria", "Betabel", "Rábano"],
+    "historia": "DATO DE EJEMPLO. Tierra suelta y húmeda, ideal para zanahorias, betabeles y rábanos que se arrancan del surco por la mañana. Sustituir por un productor real de Recaudo.",
+    "temporada": "De noviembre a marzo",
+    "mapa": { "x": 27, "y": 33 },
+    "foto": null,
+    "esEjemplo": true
+  },
+  {
+    "id": "milpa-tochimilco",
+    "slug": "milpa-tochimilco",
+    "nombre": "Milpa de Tochimilco (ejemplo)",
+    "municipio": "Tochimilco",
+    "produce": ["Maíz", "Calabaza"],
+    "historia": "DATO DE EJEMPLO. Milpa tradicional donde el maíz, la calabaza y el frijol crecen juntos, como se ha hecho por generaciones al pie del Popocatépetl. Sustituir por un productor real de Recaudo.",
+    "temporada": "De agosto a noviembre",
+    "mapa": { "x": 20, "y": 54 },
+    "foto": null,
+    "esEjemplo": true
+  },
+  {
+    "id": "hierbas-cholula",
+    "slug": "hierbas-cholula",
+    "nombre": "Huerto de hierbas en Cholula (ejemplo)",
+    "municipio": "San Andrés Cholula",
+    "produce": ["Cilantro", "Epazote", "Hierbabuena"],
+    "historia": "DATO DE EJEMPLO. A unas calles del restaurante, un huerto pequeño surte las hierbas frescas de la cocina y de la canasta. Sustituir por un productor real de Recaudo.",
+    "temporada": "Todo el año",
+    "mapa": { "x": 41, "y": 51 },
+    "foto": null,
+    "esEjemplo": true
+  },
+  {
+    "id": "manzana-zacatlan",
+    "slug": "manzana-zacatlan",
+    "nombre": "Huerta de manzana en Zacatlán (ejemplo)",
+    "municipio": "Zacatlán",
+    "produce": ["Manzana", "Pera"],
+    "historia": "DATO DE EJEMPLO. En la sierra norte, el frío da manzanas y peras que llegan a la panadería de Recaudo. Sustituir por un productor real de Recaudo.",
+    "temporada": "De julio a septiembre",
+    "mapa": { "x": 44, "y": 18 },
+    "foto": null,
+    "esEjemplo": true
+  }
+]

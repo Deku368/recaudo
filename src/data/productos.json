@@ -1,0 +1,137 @@
+[
+  {
+    "id": "quinoa",
+    "nombre": "Quinoa",
+    "unidad": "bolsa 500 g",
+    "productorId": "quinoa-tepeyahualco",
+    "mesesTemporada": [10, 11, 12],
+    "icono": "quinoa",
+    "esEjemplo": false
+  },
+  {
+    "id": "acelga",
+    "nombre": "Acelga",
+    "unidad": "manojo",
+    "productorId": "hortaliza-calpan",
+    "mesesTemporada": [1, 2, 3, 9, 10, 11, 12],
+    "icono": "acelga",
+    "esEjemplo": true
+  },
+  {
+    "id": "espinaca",
+    "nombre": "Espinaca",
+    "unidad": "manojo",
+    "productorId": "hortaliza-calpan",
+    "mesesTemporada": [1, 2, 3, 10, 11, 12],
+    "icono": "acelga",
+    "esEjemplo": true
+  },
+  {
+    "id": "lechuga",
+    "nombre": "Lechuga orejona",
+    "unidad": "pieza",
+    "productorId": "hortaliza-calpan",
+    "mesesTemporada": [3, 4, 5, 9, 10, 11],
+    "icono": "lechuga",
+    "esEjemplo": true
+  },
+  {
+    "id": "jitomate",
+    "nombre": "Jitomate bola",
+    "unidad": "kg",
+    "productorId": "jitomate-atlixco",
+    "mesesTemporada": [6, 7, 8, 9, 10],
+    "icono": "jitomate",
+    "esEjemplo": true
+  },
+  {
+    "id": "chile-poblano",
+    "nombre": "Chile poblano",
+    "unidad": "kg",
+    "productorId": "jitomate-atlixco",
+    "mesesTemporada": [7, 8, 9, 10],
+    "icono": "chile",
+    "esEjemplo": true
+  },
+  {
+    "id": "cebolla",
+    "nombre": "Cebolla blanca",
+    "unidad": "kg",
+    "productorId": "jitomate-atlixco",
+    "mesesTemporada": [3, 4, 5, 6],
+    "icono": "cebolla",
+    "esEjemplo": true
+  },
+  {
+    "id": "zanahoria",
+    "nombre": "Zanahoria",
+    "unidad": "kg",
+    "productorId": "raices-texmelucan",
+    "mesesTemporada": [1, 2, 3, 11, 12],
+    "icono": "zanahoria",
+    "esEjemplo": true
+  },
+  {
+    "id": "betabel",
+    "nombre": "Betabel",
+    "unidad": "manojo",
+    "productorId": "raices-texmelucan",
+    "mesesTemporada": [1, 2, 3, 11, 12],
+    "icono": "betabel",
+    "esEjemplo": true
+  },
+  {
+    "id": "rabano",
+    "nombre": "Rábano",
+    "unidad": "manojo",
+    "productorId": "raices-texmelucan",
+    "mesesTemporada": [1, 2, 3, 4, 9, 10, 11, 12],
+    "icono": "rabano",
+    "esEjemplo": true
+  },
+  {
+    "id": "maiz",
+    "nombre": "Elote / maíz",
+    "unidad": "pieza",
+    "productorId": "milpa-tochimilco",
+    "mesesTemporada": [8, 9, 10, 11],
+    "icono": "maiz",
+    "esEjemplo": true
+  },
+  {
+    "id": "calabaza",
+    "nombre": "Calabaza de Castilla",
+    "unidad": "pieza",
+    "productorId": "milpa-tochimilco",
+    "mesesTemporada": [7, 8, 9, 10],
+    "icono": "calabaza",
+    "esEjemplo": true
+  },
+  {
+    "id": "cilantro",
+    "nombre": "Cilantro",
+    "unidad": "manojo",
+    "productorId": "hierbas-cholula",
+    "mesesTemporada": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "icono": "hierbas",
+    "esEjemplo": true
+  },
+  {
+    "id": "epazote",
+    "nombre": "Epazote",
+    "unidad": "manojo",
+    "productorId": "hierbas-cholula",
+    "mesesTemporada": [5, 6, 7, 8, 9],
+    "icono": "hierbas",
+    "esEjemplo": true
+  },
+  {
+    "id": "manzana",
+    "nombre": "Manzana de la sierra",
+    "unidad": "kg",
+    "productorId": "manzana-zacatlan",
+    "mesesTemporada": [7, 8, 9],
+    "icono": "generico",
+    "esEjemplo": true
+  }
+]

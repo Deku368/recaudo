@@ -1,0 +1,142 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────────────────────────
+   Paleta terrosa de Recaudo. Un solo acento vivo: rojo jitomate.
+   Definir aquí un color como --color-x crea utilidades bg-x, text-x, etc.
+   ───────────────────────────────────────────────────────────── */
+@theme {
+  /* Fondos: papel, crema, tierra clara — nunca blanco puro */
+  --color-crema: #fbf6ec;
+  --color-hueso: #f4ecdb;
+  --color-hueso-hondo: #ebdfc6;
+  --color-arena: #e2d3b4;
+
+  /* Verdes de hoja */
+  --color-hoja-clara: #7e8f5b;
+  --color-hoja: #4b5d3a;
+  --color-musgo: #33402a;
+
+  /* Ocres y dorado de temporada */
+  --color-ocre: #c99a3e;
+  --color-ocre-hondo: #a97c24;
+
+  /* Barro y tierra */
+  --color-tierra: #7a4f31;
+  --color-barro: #593824;
+
+  /* Acento vivo: rojo jitomate */
+  --color-jitomate: #c3392a;
+  --color-jitomate-hondo: #9f2b1e;
+
+  /* Tinta (texto) */
+  --color-tinta: #2c271e;
+  --color-tinta-suave: #5a5142;
+
+  /* Tipografías */
+  --font-serif: "Fraunces", ui-serif, Georgia, serif;
+  --font-sans: "Work Sans", ui-sans-serif, system-ui, sans-serif;
+
+  /* Curvas de animación cálidas */
+  --ease-suave: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ───────────── Base ───────────── */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background-color: var(--color-hueso);
+  color: var(--color-tinta);
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  /* Red de seguridad: nada provoca scroll horizontal.
+     'clip' (no 'hidden') no rompe position: sticky del header. */
+  overflow-x: clip;
+  /* Textura sutil de papel: grano generado con SVG, sin peso de imagen */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  color: var(--color-musgo);
+}
+
+::selection {
+  background: var(--color-jitomate);
+  color: var(--color-crema);
+}
+
+/* Foco visible y consistente para navegación por teclado */
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: 3px solid var(--color-jitomate);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ───────────── Utilidades propias ───────────── */
+
+/* Textura de papel más marcada para bloques concretos */
+.textura-papel {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+}
+
+/* Textura de tela/tejido para pies y bloques oscuros */
+.textura-tela {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='w'%3E%3CfeTurbulence type='turbulence' baseFrequency='0.012 0.3' numOctaves='2'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23w)' opacity='0.06'/%3E%3C/svg%3E");
+}
+
+/* Contenedor de página centrado */
+.envoltura {
+  width: 100%;
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+/* Espacio reservado para fotos que aún no existen */
+.foto-pendiente {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--color-tierra);
+  background-color: var(--color-hueso-hondo);
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 12px,
+    rgba(122, 79, 49, 0.06) 12px,
+    rgba(122, 79, 49, 0.06) 24px
+  );
+  border: 2px dashed rgba(122, 79, 49, 0.35);
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+}
+
+/* Quita todas las animaciones/transiciones para quien lo pide */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

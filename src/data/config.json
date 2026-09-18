@@ -1,0 +1,27 @@
+{
+  "whatsapp": "522226031898",
+  "telefonoDisplay": "222 603 18 98",
+  "email": "contacto@recaudo.com.mx",
+  "direccion": "12 Poniente 105, San Andrés Cholula, Puebla",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=12+Poniente+105+San+Andres+Cholula+Puebla",
+  "redes": {
+    "facebook": "https://www.facebook.com/Recaudo",
+    "instagram": "https://www.instagram.com/recaudocholula"
+  },
+  "cierre": {
+    "aperturaDia": 0,
+    "cierreDia": 3,
+    "cierreHora": "23:59",
+    "tz": "America/Mexico_City"
+  },
+  "entrega": {
+    "tiendaDia": "jueves",
+    "domicilioDia": "viernes"
+  },
+  "envios": [
+    { "zona": "Cholula", "costoMin": 30, "costoMax": 30, "porConfirmar": false },
+    { "zona": "San Andrés y Angelópolis", "costoMin": 60, "costoMax": 80, "porConfirmar": false },
+    { "zona": "Zavaleta (dentro de zona)", "costoMin": null, "costoMax": null, "porConfirmar": true, "nota": "Costo por confirmar con Recaudo" },
+    { "zona": "Fuera de zona", "costoMin": null, "costoMax": null, "porConfirmar": true, "nota": "Costo extra o recolección en tienda" }
+  ]
+}

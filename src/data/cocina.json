@@ -1,0 +1,87 @@
+{
+  "esEjemplo": true,
+  "estacionCarta": "Carta de final de verano",
+  "notaRotacion": "La carta rota cada tres meses según la estación.",
+  "menuDelDia": {
+    "dias": "De lunes a viernes",
+    "descripcion": "Sopa o entrada, plato fuerte con lo que dio la milpa esa semana, agua del día y un dulce de la panadería.",
+    "precio": 130
+  },
+  "categorias": [
+    {
+      "id": "desayunos",
+      "nombre": "Desayunos",
+      "horario": "8:00 – 12:00",
+      "platillos": [
+        {
+          "nombre": "Huevos con epazote y quelites",
+          "descripcion": "Del huerto de hierbas de Cholula y la hoja verde de Calpan.",
+          "precio": 95,
+          "productorIds": ["hierbas-cholula", "hortaliza-calpan"]
+        },
+        {
+          "nombre": "Avena de la casa con quinoa y manzana",
+          "descripcion": "Quinoa de Tepeyahualco y manzana de la sierra.",
+          "precio": 78,
+          "productorIds": ["quinoa-tepeyahualco", "manzana-zacatlan"]
+        },
+        {
+          "nombre": "Molletes con pico de gallo",
+          "descripcion": "Jitomate y cebolla de Atlixco sobre pan del día.",
+          "precio": 85,
+          "productorIds": ["jitomate-atlixco"]
+        }
+      ]
+    },
+    {
+      "id": "comidas",
+      "nombre": "Comidas",
+      "horario": "13:00 – 18:00",
+      "platillos": [
+        {
+          "nombre": "Sopa de milpa",
+          "descripcion": "Elote, calabaza y flor de la milpa de Tochimilco.",
+          "precio": 90,
+          "productorIds": ["milpa-tochimilco", "jitomate-atlixco"]
+        },
+        {
+          "nombre": "Ensalada de la temporada",
+          "descripcion": "Hoja verde de Calpan con betabel y zanahoria de Texmelucan.",
+          "precio": 110,
+          "productorIds": ["hortaliza-calpan", "raices-texmelucan"]
+        },
+        {
+          "nombre": "Chile en nogada (de temporada)",
+          "descripcion": "Chile poblano de Atlixco y nuez con manzana de la sierra.",
+          "precio": 195,
+          "productorIds": ["jitomate-atlixco", "manzana-zacatlan"]
+        }
+      ]
+    },
+    {
+      "id": "panaderia",
+      "nombre": "Panadería",
+      "horario": "Todo el día, hasta agotar",
+      "platillos": [
+        {
+          "nombre": "Pan de manzana",
+          "descripcion": "Con manzana de Zacatlán, recién horneado.",
+          "precio": 45,
+          "productorIds": ["manzana-zacatlan"]
+        },
+        {
+          "nombre": "Galletas de quinoa",
+          "descripcion": "Quinoa de Tepeyahualco tostada.",
+          "precio": 40,
+          "productorIds": ["quinoa-tepeyahualco"]
+        },
+        {
+          "nombre": "Concha del día",
+          "descripcion": "Masa madre de la casa.",
+          "precio": 30,
+          "productorIds": []
+        }
+      ]
+    }
+  ]
+}
